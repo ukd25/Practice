@@ -1,0 +1,92 @@
+body {
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #F1F7FF;
+}
+
+.outer_container .to_do_list_header {
+  font-family: 'Dancing Script', cursive;
+}
+
+.outer_container .add_task_div .add_task_button {
+  background-color: #0080FF;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  width: 100px;
+  cursor: pointer;
+}
+
+.outer_container .modal .modal-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.outer_container .modal .col-form-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.outer_container .modal input {
+  background-color: #fff;
+}
+
+.outer_container .modal input::-webkit-input-placeholder {
+  color: #d7dce2;
+}
+
+.outer_container .modal input:-ms-input-placeholder {
+  color: #d7dce2;
+}
+
+.outer_container .modal input::-ms-input-placeholder {
+  color: #d7dce2;
+}
+
+.outer_container .modal input::placeholder {
+  color: #d7dce2;
+}
+
+.outer_container .to_do_list {
+  max-width: 500px;
+  margin: auto;
+}
+
+.outer_container .card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.outer_container .cross {
+  background-color: #ce3429;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1;
+}
+
+.outer_container input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

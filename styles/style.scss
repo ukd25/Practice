@@ -1,0 +1,65 @@
+body{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #F1F7FF;
+}
+.outer_container{
+    & .to_do_list_header{
+        font-family: 'Dancing Script', cursive;
+    }
+    & .add_task_div{
+        & .add_task_button {
+            background-color: #0080FF;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            width: 100px;
+            cursor: pointer;
+        }
+    }
+    & .modal{
+        & .modal-title{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+        }
+        & .col-form-label{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+        }
+        & input{
+            background-color: #fff;
+        }
+        & input::placeholder{
+            color: #d7dce2;
+        }
+    }
+    & .to_do_list{
+        max-width: 500px;
+        margin: auto;
+    }
+    & .card-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    & .cross{
+        background-color: rgb(206, 52, 41);
+        color: #fff;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+    }
+    & input[type="checkbox"]{
+        width: 30px;
+        height: 30px;
+        border-radius:10px ;
+    }
+}
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
